@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Pagina-1" id="gAxNs_sm6Xm_8pKVukM3">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tIAEfp15o6BfSxeuubGR-2" parent="1" style="shape=rect;html=1;verticalAlign=top;fontStyle=1;whiteSpace=wrap;align=center;" value="Authentication library" vertex="1">
+          <mxGeometry height="390" width="170" x="90" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Aggiunta utente" vertex="1">
+          <mxGeometry height="50" width="80" x="135" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-20" edge="1" parent="1" source="tIAEfp15o6BfSxeuubGR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tIAEfp15o6BfSxeuubGR-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-3" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Tecnico ferroviario" vertex="1">
+          <mxGeometry height="60" width="30" x="510" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Rimozione utente" vertex="1">
+          <mxGeometry height="60" width="90" x="130" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Modifica utente" vertex="1">
+          <mxGeometry height="60" width="80" x="135" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Login (autenticazione)&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="110" x="120" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-21" edge="1" parent="1" source="tIAEfp15o6BfSxeuubGR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tIAEfp15o6BfSxeuubGR-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-14" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Amministratore" vertex="1">
+          <mxGeometry height="60" width="30" x="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-18" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Interagente" vertex="1">
+          <mxGeometry height="60" width="30" x="370" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-19" edge="1" parent="1" source="tIAEfp15o6BfSxeuubGR-9" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=0.956;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;" target="tIAEfp15o6BfSxeuubGR-18" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="340" y="260" as="sourcePoint" />
+            <mxPoint x="430" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-22" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Database" vertex="1">
+          <mxGeometry height="80" width="70" x="330" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-23" edge="1" parent="1" source="tIAEfp15o6BfSxeuubGR-22" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="tIAEfp15o6BfSxeuubGR-9" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="340" y="480" as="sourcePoint" />
+            <mxPoint x="165" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-24" edge="1" parent="1" source="tIAEfp15o6BfSxeuubGR-8" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="tIAEfp15o6BfSxeuubGR-18" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="340" y="310" as="sourcePoint" />
+            <mxPoint x="500" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-25" edge="1" parent="1" source="tIAEfp15o6BfSxeuubGR-1" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="tIAEfp15o6BfSxeuubGR-18" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="310" y="180" as="sourcePoint" />
+            <mxPoint x="470" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tIAEfp15o6BfSxeuubGR-26" edge="1" parent="1" source="tIAEfp15o6BfSxeuubGR-7" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="310" y="180" as="sourcePoint" />
+            <mxPoint x="450" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
